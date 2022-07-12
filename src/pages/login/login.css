@@ -1,0 +1,50 @@
+.login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    background-image: url(../../images/wallpaperLogin.jpeg);
+    padding: 150px;
+
+}
+
+.titleLogin{
+    font-size: 60px;
+    margin-right: 20px;
+}
+
+.loginForm{
+    flex-direction: column;
+    display: flex;
+    margin-right: 20px;
+}
+
+.labelLogin{
+    margin-top: 10px 0;
+}
+
+.inputLogin{
+    padding: 10px;
+    background-color: rgb(162, 170, 179);
+    border: none; 
+}
+
+.btnLogin{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.opLogin p{
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    margin-right: 8px;
+    cursor: pointer;
+    color: rgb(11, 153, 241);
+}

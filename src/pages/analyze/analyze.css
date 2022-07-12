@@ -1,0 +1,79 @@
+.analyze{
+display: flex;
+flex: 2;
+background: url(../../images/analyzewallpaper.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: calc(105vh - 50px);
+}
+
+.analyzeGrid1{
+background-color: none;
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-right: 150px;
+width: 60%;
+height: 600px;
+margin-top: 8%;
+}
+
+.analyzeGrid1 h1{
+font-size: 60px;
+
+}
+
+.analyzeForm{
+flex-direction: column;
+display: flex;
+width: 40%;
+
+}
+
+.analyzeInput{
+ margin-top: 5px;
+ border: none;
+ border-radius: 10px;
+ background-color: rgb(179, 241, 238);
+ font-size: 16px;
+
+}
+
+.analyzeForm button{
+    background-color:slateblue;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    height: 30px;
+    border-radius: 9px;
+    font-size: 22px;
+}
+
+.analyzeGrid2{
+width: 25%;
+height: 800px;
+background-color: none;
+}
+
+.analyzeResult{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.analyzeLabel1{
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.analyzeLabel2{
+    background-color: slateblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    align-items: center;
+    width: 50%;
+    color: white;
+    
+
+}

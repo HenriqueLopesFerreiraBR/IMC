@@ -1,0 +1,71 @@
+.Register{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../../images/RegistroWallpaper.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    height: calc(105vh - 50px);
+     
+}
+
+.titleRegister{
+    font-size: 50px;
+    color: lightslategrey;
+    
+}
+
+.RegisterForm{
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-right: 20px;
+}
+
+.labelRegister{
+    margin: 10px 0;
+    color: black
+}
+
+.inputRegister{
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.btnRegister{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 8px;
+}
+
+.btnReset{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+.btnlogin{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+}

@@ -1,0 +1,59 @@
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 260px;   
+    background-image: url(../../images/IMC.jpg) ;
+    background-size: cover;
+
+    
+}
+.dataInformation{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: none;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.dataInformation li{
+    list-style: none;
+    
+}
+
+.informationdata{
+    background-color: rgb(27, 137, 240);
+    font-size: 20px;
+    color: white;
+    width: 120%;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+    justify-items: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.information{
+    font-size: 15px;
+}
+
+.datatable{
+    display: flex;
+    width: 30%;
+    height: 60%;
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color: aliceblue;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.imagePefil img{
+    border-radius: 50px;
+    height: 50%;
+}

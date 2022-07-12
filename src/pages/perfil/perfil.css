@@ -1,0 +1,49 @@
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 400px;   
+    background-image: url(../../images/wallpaperLogin.jpeg);
+    flex: 6;
+    
+}
+.dadosPerfil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dadosPerfil label{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 3px 0;
+}
+
+.dadosPerfil li{
+    list-style: none;
+}
+
+.informationPerfil{
+    background-color: mediumpurple;
+    font-size: 20px;
+    color: white;
+    width: 30%;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+    justify-items: center;
+    align-items: center;
+}
+
+.imagePefil{
+    display: flex;
+    width: 40%;
+    height: 60%;
+
+
+}
+
+.imagePefil img{
+    border-radius: 50px;
+    height: 50%;
+}
